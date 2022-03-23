@@ -6,8 +6,7 @@ title: Teams
 subtitle: Participating teams in GORE
 active: true
 ---
-As we are still in the planning phase, we are still waiting for verification of participating teams. 
-The teams who already confirmed, that they want to participate are:
+The following teams will be participating in the event:
 |         Team        	|  League  	|         Location         	|      Mode     	|
 |:-------------------:	|:--------:	|:------------------------:	|:-------------:	|
 |        HULKs        	|    SPL   	|     Hamburg (Germany)    	|    presence   	|
@@ -15,11 +14,10 @@ The teams who already confirmed, that they want to participate are:
 |       B-Human       	|    SPL   	|     Bremen (Germany)     	|    presence   	|
 |     HTWK Robots     	|    SPL   	|     Leipzip (Germany)    	|    presence   	|
 |    R-ZWEI KICKERS   	|    SPL   	| Kaiserslautern (Germany) 	|    presence   	|
-|      Bembelbots      	|    SPL   	|    Frankfurt (Germany    	| presence/hybrid	|
-| Berlin United NaoTH 	|    SPL   	|     Berlin (Germany)     	|     hybrid    	|
+|      Bembelbots      	|    SPL   	|    Frankfurt (Germany)   	| presence/hybrid	|
 |         SPQR        	|    SPL   	|       Rome (Italy)       	| hybrid/remote 	|
 |       rUNSWift      	|    SPL   	|    Sydney (Australia)    	|     remote    	|
 |      RoboEireann     	|    SPL   	|    Maynooth (Ireland)    	|     remote    	|
 |       Bit-Bots      	| Humanoid 	|     Hamburg (Germany)    	|    presence   	|
 
-If you would like to participate with your team as well, send an email our way.
+A timetable of planned games will follow soon!
