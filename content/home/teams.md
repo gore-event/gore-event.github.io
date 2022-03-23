@@ -21,3 +21,5 @@ The following teams will be participating in the event:
 |       Bit-Bots      	| Humanoid 	|     Hamburg (Germany)    	|    presence   	|
 
 A timetable of planned games will follow soon!
+
+As we will do a commented livestream of the [Humanoid League Virtual Season 2021/22](https://humanoid.robocup.org/hl-vs2022/humanoid-league-virtual-season-2021-22/) those games will also be reflected in the upcoming timetable.
