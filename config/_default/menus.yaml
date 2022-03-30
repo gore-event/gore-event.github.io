@@ -10,8 +10,8 @@ main:
   - name: Public
     url: '#public'
     weight: 20
-  - name: Registration
-    url: '#registration'
+  - name: Sponsors
+    url: '#sponsors'
     weight: 30
   - name: Teams
     url: '#teams'
