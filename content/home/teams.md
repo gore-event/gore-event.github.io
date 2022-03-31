@@ -12,7 +12,7 @@ The following teams will be participating in the event:
 |        HULKs        	|    SPL   	|     Hamburg (Germany)    	|    presence   	|
 |      NaoDevils      	|    SPL   	|    Dortmund (Germany)    	|    presence   	|
 |       B-Human       	|    SPL   	|     Bremen (Germany)     	|    presence   	|
-|     HTWK Robots     	|    SPL   	|     Leipzip (Germany)    	|    presence   	|
+|     HTWK Robots     	|    SPL   	|     Leipzig (Germany)    	|    presence   	|
 |    R-ZWEI KICKERS   	|    SPL   	| Kaiserslautern (Germany) 	|    presence   	|
 |      Bembelbots      	|    SPL   	|    Frankfurt (Germany)   	| presence/hybrid	|
 |         SPQR        	|    SPL   	|       Rome (Italy)       	| hybrid/remote 	|
