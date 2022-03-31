@@ -1,3 +1,4 @@
+// Overrides of existing classes
 .carousel {
   .carousel-item {
     background-size: cover;
@@ -29,10 +30,37 @@
   }
 }
 
-.sponsors {
+// Styling of custom classes
+.image_links {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
+
+  .image_link--disabled {
+    cursor: default;
+    pointer-events: none;
+  }
+}
+
+.logos {
+  margin-bottom: 60px;
+
+  @media (min-width: 768px) {
+    margin-bottom: 110px;
+  }
+
+  img {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-height: 60px;
+
+    @media (min-width: 768px) {
+      max-height: 88px;
+    }
+  }
+}
+
+.sponsors {
   margin-top: -20px;
   margin-bottom: -20px;
 

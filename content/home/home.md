@@ -5,7 +5,23 @@ weight: 10
 active: true
 design:
   columns: 1
+
+image_links:
+- folder: logos
+  image: 01_gore_logo.svg
+  caption: German Open Replacement Event 2022
+- folder: logos
+  image: 02_german_open_logo.svg
+  caption: RoboCup German Open 2022
+- folder: logos
+  image: 03_robocup_logo.png 
+  link: https://www.robocup.org/ 
+  caption: RoboCup Federation
+
 ---
+
+{{< image_links folder="logos" class="logos" >}}
+
 Since the RoboCup German Open 2022 will once again not be happening due to the COVID-19 situation, we are once again planning an alternative.
 
 The successfull **G**erman **O**pen **R**eplacement **E**vent from last year goes into a second round for 2022, this time here in the [Hamburg Handelskammer](https://www.hk24.de/en/servicemarken/event-management).
