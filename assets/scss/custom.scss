@@ -1,4 +1,15 @@
 // Overrides of existing classes
+#timetable {
+  .row {
+    justify-content: center;
+  }
+
+  .section-heading {
+    width: fit-content;
+    flex-basis: auto;
+  }
+}
+
 .carousel {
   .carousel-item {
     background-size: cover;
@@ -83,9 +94,16 @@
   }
 }
 
+.timetable-container {
+  display: flex;
+  justify-content: center;
+}
+
 .timetable {
   width: 100%;
   height: 75vh;
+  max-width: 1140px;
+  max-height: 924px;
 
   @media (min-width: 992px) {
     margin-top: 16px;
