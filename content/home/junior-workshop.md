@@ -1,7 +1,7 @@
 ---
 widget: pages
 headless: true
-weight: 50
+weight: 60
 title: Junior Workshop
 active: true
 ---

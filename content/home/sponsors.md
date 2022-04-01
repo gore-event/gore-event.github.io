@@ -1,7 +1,7 @@
 ---
 widget: pages
 headless: true
-weight: 30
+weight: 40
 title: Sponsors 
 subtitle: We are thankful for the financial support of
 active: true
@@ -31,7 +31,6 @@ image_links:
   image: 06_bauhaus_sponsoring.svg
   link: https://www.bauhaus.info/
   caption: BAUHAUS
-
 ---
 
 {{< image_links folder="sponsors" class="sponsors" >}}
