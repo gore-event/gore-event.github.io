@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;family=Roboto+Mono&amp;family=Roboto:wght@400;700&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;family=Roboto+Mono&amp;family=Roboto:wght@400;700&amp;display=swap" media="all" onload="this.media='all'">
-    <link rel="stylesheet" href="/css/wowchemy.css">
+    <link rel="stylesheet" href="/css/wowchemy.503278364b4f641e2c25737576b5bc6c.css">
   </head>
   <body class="mt-0" style="background-color: rgb(247, 247, 247)">
     <section id="timetable-page">
@@ -85,7 +85,7 @@
 
       const eventTemplate = (name, event) => {
         if (event) {
-          return `<h2 class="col-12 grey fade-in">${name} ${event.time || ''}</h2>${fieldsTemplate(event.fields)}`;
+          return `<h2 class="col-12 grey fade-in">${name} ${event.time}</h2>${fieldsTemplate(event.fields)}`;
         } else {
           return '<h2 class="col-12 grey fade-in">No more games today!</h2>'
         }
