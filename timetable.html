@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;family=Roboto+Mono&amp;family=Roboto:wght@400;700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;family=Roboto+Mono&amp;family=Roboto:wght@400;700&amp;display=swap" media="all" onload="this.media='all'">
+    <link rel="stylesheet" href="/css/wowchemy.css">
+  </head>
+  <body class="mt-0" style="background-color: rgb(247, 247, 247)">
+    <section id="timetable-page">
+      <div class="row">
+        <div class="col-4">
+          <iframe
+              frameborder="0"
+              class="timetable-display"
+              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTOJCD4w-Qda0Q9X3z7P5QTXzdv-OZNo_viNBrvnOAtCQgZdf9gwmJvcfnfzVXT85d1naQg4JeMPnRj/pubhtml?gid=966839005&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false">
+          </iframe>
+        </div>
+
+        <div class="col-8 right-slot">
+          <img class="logo" src="/media/logos/01_gore_logo.svg" loading="lazy">
+
+          <div class="row timeslots">
+            <div id="now" class="col-12 grey fade-in"></div>
+            <div class="col-5">
+              <div id="up-next" class="row fade-in"></div>
+            </div>
+            <div class="col-5">
+              <div id="after" class="row fade-in"></div>
+            </div>
+            <div class="col-2">
+              <img class="logo" src="/public_timetable_qr_code.svg" loading="lazy">
+              <p class="grey">Visit to see the full event timetable!</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-5">
+              <img class="robocup-logo" src="/media/logos/02_german_open_logo.svg" loading="lazy">
+            </div>
+            <div class="col-5">
+              <img class="robocup-logo" src="/media/logos/03_robocup_logo.png" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js" integrity="sha512-SGWgwwRA8xZgEoKiex3UubkSkV1zSE1BS6O4pXcaxcNtUlQsOmOmhVnDwIvqGRfEmuz83tIGL13cXMZn6upPyg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/2.3.1/luxon.min.js" integrity="sha512-Nw0Abk+Ywwk5FzYTxtB70/xJRiCI0S2ORbXI3VBlFpKJ44LM6cW2WxIIolyKEOxOuMI90GIfXdlZRJepu7cczA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script type="text/javascript">
+      const DateTime = luxon.DateTime;
+      let timeSlots = [];
+
+      renderDate();
+      fillTimeSlots()
+        .then(getNextEvents)
+        .then(renderNextEvents);
+
+      setInterval(() => {
+        renderDate();
+        renderNextEvents(getNextEvents());
+      }, 60000);
+
+      function renderDate() {
+        const dateString = DateTime.now().toFormat('EEEE dd.MM. HH:mm');
+        document.getElementById('now').innerHTML = `<h1 class="grey fade-in">${dateString}</h1>`
+      }
+
+      function renderNextEvents(events) {
+        const fieldTemplate = string => `<h3 class="col-12 grey fade-in">${string}</h3>`;
+        const fieldsTemplate = fields => fields
+          .filter(field => field.game)
+          .map(field => {
+            if (fields[1] && fields[1].game) {
+              return fieldTemplate(`${field.name}: ${field.game}`);
+            } else {
+              return fieldTemplate(field.game);
+            }
+          }).join(' ');
+
+      const eventTemplate = (name, event) => {
+        if (event) {
+          return `<h2 class="col-12 grey fade-in">${name} ${event.time || ''}</h2>${fieldsTemplate(event.fields)}`;
+        } else {
+          return '<h2 class="col-12 grey fade-in">No more games today!</h2>'
+        }
+      }
+
+        if (events) {
+          document.getElementById('up-next').innerHTML = eventTemplate('Up Next', events.upNext);
+          document.getElementById('after').innerHTML = eventTemplate('After', events.after);
+        } else {
+          document.getElementById('up-next').innerHTML = eventTemplate();
+        }
+      }
+
+      function getNextEvents() {
+        let upNext = {}, after = {};
+        const now = DateTime.now();
+
+        for (const slot of timeSlots) {
+          const [hour, minutes] = slot.time.split(':');
+          const slotDateTime = DateTime.fromObject({ hour, minutes });
+
+          if (now < slotDateTime) {
+            upNext = slot
+            after = timeSlots[timeSlots.indexOf(slot) + 1]
+
+            return { upNext, after };
+          }
+        }
+      }
+
+
+      function fillTimeSlots() {
+        return parseTimetable().then(data => {
+          timeSlots = data.filter((row) => row['Field A'])
+            .map(row => ({
+              time: row.Time,
+              fields: [{
+                name: 'Field A',
+                game: row['Field A'],
+              }, {
+                name: 'Field B',
+                game: row['Field B'],
+              }]
+            })
+          );
+        });
+      }
+
+      function parseTimetable() {
+        return fetch('/timetable.csv')
+          .then(response => response.text())
+          .then(csv => Papa.parse(csv, {
+            header: true,
+            dynamicTyping: true,
+          }))
+          .then(result => result.data)
+      }
+    </script>
+  </body>
+</html>
+
