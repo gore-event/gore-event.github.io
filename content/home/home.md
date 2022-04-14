@@ -21,6 +21,12 @@ image_links:
 
 {{< image_links folder="logos" class="logos" >}}
 
+<h1 class="livestream_link">
+  <a href="https://www.youtube.com/watch?v=Zp57Kl-fAFI" target="_blank" rel="noopener">
+   View the current livestream
+ </a>
+</h1>
+
 Since the RoboCup German Open 2022 will once again not be happening due to the COVID-19 situation, we are once again planning an alternative.
 
 The successfull **G**erman **O**pen **R**eplacement **E**vent from last year goes into a second round for 2022, this time here in the [Hamburg Handelskammer](https://www.hk24.de/en/servicemarken/event-management).
