@@ -137,13 +137,24 @@
 
   .robocup-logo {
     width: auto;
-    max-height: 88px;
+    max-height: 65px;
+    margin-top: 22px;
+  }
+
+  .robocup-german-open-logo {
+    width: auto;
+    max-width: 275px;
+    margin-top: 26px;
   }
 
   .right-slot {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+
+  .sponsors-row {
+    margin-top: 18px;
   }
 
   .fade-in {
