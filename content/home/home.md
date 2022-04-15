@@ -22,7 +22,7 @@ image_links:
 {{< image_links folder="logos" class="logos" >}}
 
 <h1 class="livestream_link">
-  <a href="https://www.youtube.com/watch?v=Zp57Kl-fAFI" target="_blank" rel="noopener">
+  <a href="https://youtube.com/RoboCupSPL/live" target="_blank" rel="noopener">
    View the current livestream
  </a>
 </h1>
