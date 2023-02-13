@@ -4,7 +4,7 @@ headless: true
 weight: 20
 title: Results
 subtitle: Ranking of all the SPL Teams
-active: true
+active: false
 ---
 
 | Ranking | Teams          | Points | BHZ | Goal Difference | Summed Score |

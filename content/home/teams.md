@@ -4,7 +4,7 @@ headless: true
 weight: 30
 title: Teams
 subtitle: Participating teams in GORE
-active: true
+active: false
 ---
 
 |      Team      |  League  |         Location         |      Mode       |

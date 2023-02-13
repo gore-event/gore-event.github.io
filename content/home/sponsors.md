@@ -4,7 +4,7 @@ headless: true
 weight: 40
 title: Sponsors
 subtitle: We are thankful for the financial support of
-active: true
+active: false
 
 image_links:
   - folder: sponsors
