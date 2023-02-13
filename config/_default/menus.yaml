@@ -13,6 +13,13 @@ main:
   - name: Contact
     url: '#contact'
     weight: 50
+  - name: Previous Competitions
+    identifier: previous
+    weight: 60
+  - name: 2022
+    parent: previous
+    url: '/previous/2022/'
+    weight: 10
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
