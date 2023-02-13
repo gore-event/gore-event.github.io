@@ -19,6 +19,6 @@ active: true
 |    8    | R-ZWEI-KICKERS |   2    | 58  |       -42       |     4:46     |
 |    9    | HULKs          |   0    | 57  |       -40       |     1:41     |
 
-For a more in depth view of the different games played and their individual results you can have a look at the whole [timetable](https://docs.google.com/spreadsheets/d/e/2PACX-1vTOJCD4w-Qda0Q9X3z7P5QTXzdv-OZNo_viNBrvnOAtCQgZdf9gwmJvcfnfzVXT85d1naQg4JeMPnRj/pubhtml?gid=1761701310&single=true).
+For a more in depth view of the different games played and their individual results you can have a look at the whole [timetable](https://spl.robocup.org/gore-2022-results/).
 
 The [Humanoid League Virtual Season 2021/22](https://humanoid.robocup.org/hl-vs2022/humanoid-league-virtual-season-2021-22/) results are available on a dedicated page.
