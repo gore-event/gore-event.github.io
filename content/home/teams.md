@@ -3,19 +3,26 @@ widget: pages
 headless: true
 weight: 30
 title: Teams
-subtitle: Participating teams in GORE
-active: false
+subtitle: Planning to participate in GORE
+active: true
 ---
 
-|      Team      |  League  |         Location         |      Mode       |
-| :------------: | :------: | :----------------------: | :-------------: |
-|     HULKs      |   SPL    |    Hamburg (Germany)     |    presence     |
-|   NaoDevils    |   SPL    |    Dortmund (Germany)    |    presence     |
-|    B-Human     |   SPL    |     Bremen (Germany)     |    presence     |
-|  HTWK Robots   |   SPL    |    Leipzig (Germany)     |    presence     |
-| R-ZWEI KICKERS |   SPL    | Kaiserslautern (Germany) |    presence     |
-|   Bembelbots   |   SPL    |   Frankfurt (Germany)    | presence/hybrid |
-|      SPQR      |   SPL    |       Rome (Italy)       |  hybrid/remote  |
-|    rUNSWift    |   SPL    |    Sydney (Australia)    |     remote      |
-|  RoboEireann   |   SPL    |    Maynooth (Ireland)    |     remote      |
-|    Bit-Bots    | Humanoid |    Hamburg (Germany)     |    presence     |
+As we are still in the planning phase, we are still waiting for verification of participating teams. 
+The teams who already confirmed, that they want to participate are:
+
+| Team           | League     | Location                  |
+|----------------|:----------:|--------------------------:|
+| HULKs          | SPL        | Hamburg (Germany)         |
+| NaoDevils      | SPL        | Dortmund (Germany)        |
+| B-Human        | SPL        | Bremen (Germany)          |
+| HTWK Robots    | SPL        | Leipzig (Germany)         |
+| R-ZWEI KICKERS | SPL        | Kaiserslautern (Germany)  |
+| Bembelbots     | SPL        | Frankfurt (Germany)       |
+| NomadZ         | SPL        | Zürich (Switzerland)      |
+| Dutch Nao Team | SPL        | Amsterdam (Netherlands)   |
+| Naova          | SPL        | Montréal (Canada)         |
+| rUNSWift       | SPL        | Sydney (Australia)        |
+| Bit-Bots       | Humanoid   | Hamburg (Germany)         |
+| WF-Wolves      | Humanoid   | Wolfenbüttel (Germany)    |
+
+If you would like to participate with your team as well, send an email our way.

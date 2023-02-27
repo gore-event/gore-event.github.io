@@ -10,6 +10,9 @@ main:
   - name: Participation
     url: '#participation'
     weight: 10
+  - name: Teams
+    url: '#teams'
+    weight: 30
   - name: Contact
     url: '#contact'
     weight: 50
