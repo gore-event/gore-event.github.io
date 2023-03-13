@@ -9,6 +9,8 @@ active: true
 
 The following teams have confirmed their participation:
 
+{{< table "table table-sm table-striped table-bordered" >}}
+
 | Team           | League     | Location                  |
 |----------------|:----------:|--------------------------:|
 | HULKs          | SPL        | Hamburg (Germany)         |
@@ -23,5 +25,7 @@ The following teams have confirmed their participation:
 | rUNSWift       | SPL        | Sydney (Australia)        |
 | Bit-Bots       | Humanoid   | Hamburg (Germany)         |
 | WF-Wolves      | Humanoid   | Wolfenbüttel (Germany)    |
+
+{{</ table >}}
 
 If you would like to participate with your team as well, send an email our way.

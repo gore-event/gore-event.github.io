@@ -7,6 +7,8 @@ subtitle: Ranking of all the SPL Teams
 active: true
 ---
 
+{{< table "table table-sm table-striped table-bordered" >}}
+
 | Ranking | Teams          | Points | BHZ | Goal Difference | Summed Score |
 | :-----: | -------------- | :----: | :-: | :-------------: | :----------: |
 |    1    | B-Human        |   17   | 68  |       58        |     58:0     |
@@ -18,6 +20,8 @@ active: true
 |    7    | SPQR           |   5    | 38  |       -4        |     6:10     |
 |    8    | R-ZWEI-KICKERS |   2    | 58  |       -42       |     4:46     |
 |    9    | HULKs          |   0    | 57  |       -40       |     1:41     |
+
+{{</ table >}}
 
 For a more in depth view of the different games played and their individual results you can have a look at the whole [timetable](https://spl.robocup.org/gore-2022-results/).
 

@@ -6,6 +6,8 @@ subtitle: Participating teams in GORE
 active: true
 ---
 
+{{< table "table table-sm table-striped table-bordered" >}}
+
 |      Team      |  League  |         Location         |      Mode       |
 | :------------: | :------: | :----------------------: | :-------------: |
 |     HULKs      |   SPL    |    Hamburg (Germany)     |    presence     |
@@ -18,3 +20,5 @@ active: true
 |    rUNSWift    |   SPL    |    Sydney (Australia)    |     remote      |
 |  RoboEireann   |   SPL    |    Maynooth (Ireland)    |     remote      |
 |    Bit-Bots    | Humanoid |    Hamburg (Germany)     |    presence     |
+
+{{</ table >}}
