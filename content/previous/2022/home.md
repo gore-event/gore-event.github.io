@@ -37,3 +37,5 @@ Due to the situation, the event even had two teams participating in a remote fas
 
 We greatly want to thank everyone involved for the great time, the organizational help and a beautiful display of the pleasures of science/engineering all around!
 Without all of you this event would not have been possible. Thank you!
+
+Have a look at our [gallery](/gallery) for some impressions of the event.

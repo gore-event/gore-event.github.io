@@ -19,9 +19,13 @@ main:
   - name: Contact
     url: '#contact'
     weight: 50
+  - name: Gallery
+    identifier: gallery
+    url: '/gallery/'
+    weight: 60
   - name: Previous Competitions
     identifier: previous
-    weight: 60
+    weight: 70
   - name: 2022
     parent: previous
     url: '/previous/2022/'

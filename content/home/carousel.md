@@ -19,7 +19,5 @@ content:
       align: center
       background:
         media: images/humanoid_bit_bots.jpg
-    - title: ''
-      background:
-        media: images/gore_humanoid_robot.jpg
+
 ---
