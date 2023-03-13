@@ -7,9 +7,9 @@ main:
   - name: Home
     url: '#home'
     weight: 10
-  - name: Participation
-    url: '#participation'
-    weight: 10
+  # - name: Participation
+    # url: '#participation'
+    # weight: 10
   - name: Updates
     url: '#updates'
     weight: 20

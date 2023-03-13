@@ -7,8 +7,7 @@ subtitle: Planning to participate in GORE
 active: true
 ---
 
-As we are still in the planning phase, we are still waiting for verification of participating teams. 
-The teams who already confirmed, that they want to participate are:
+The following teams have confirmed their participation:
 
 | Team           | League     | Location                  |
 |----------------|:----------:|--------------------------:|

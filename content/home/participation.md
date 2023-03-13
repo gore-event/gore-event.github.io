@@ -4,7 +4,7 @@ headless: true
 weight: 20
 title: Call for participation
 subtitle: As sent out via email
-active: true
+active: false
 ---
 
 Dear everyone,
