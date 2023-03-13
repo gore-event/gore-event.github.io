@@ -17,6 +17,7 @@ image_links:
     image: 03_robocup_logo.png
     link: https://www.robocup.org/
     caption: RoboCup Federation
+
 ---
  
 {{< image_links folder="2022/logos" class="logos_2022" >}}

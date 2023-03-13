@@ -1,4 +1,8 @@
 // Overrides of existing classes
+.media.stream-item {
+  display: none;
+}
+
 #timetable {
   .row {
     justify-content: center;
