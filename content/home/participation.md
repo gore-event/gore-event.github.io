@@ -11,7 +11,7 @@ Dear everyone,
 
 as many of you have already read, there will be again **NO central** German Open this year. To provide a reasonable alternative, the SPL and Humanoid League joined together again to organize a next version of the GORE. 
 
-The event will take place **in [Hamburg at the DESY](https://www.desy.de/research/cooperations__institutes/cfel/index_eng.html) between the 25.04. and 30.04.23**.
+The event will take place **in [Hamburg at the CFEL@DESY](https://www.desy.de/research/cooperations__institutes/cfel/index_eng.html) between the 25.04. and 30.04.23**.
 The setup days will be on the 25th and 26th and the competition days from the 27th to the 30th of April.
 To get a better feeling about the size of the event, we would like to ask if you and your team would like to participate?
 
