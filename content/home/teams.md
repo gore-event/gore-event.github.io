@@ -27,5 +27,3 @@ The following teams have confirmed their participation:
 | WF-Wolves      | Humanoid   | Wolfenbüttel (Germany)    |
 
 {{</ table >}}
-
-If you would like to participate with your team as well, send an email our way.
