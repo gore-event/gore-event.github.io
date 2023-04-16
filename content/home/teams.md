@@ -24,6 +24,5 @@ The following teams have confirmed their participation:
 | Naova          | SPL        | Montréal (Canada)         |
 | rUNSWift       | SPL        | Sydney (Australia)        |
 | Bit-Bots       | Humanoid   | Hamburg (Germany)         |
-| WF-Wolves      | Humanoid   | Wolfenbüttel (Germany)    |
 
 {{</ table >}}
