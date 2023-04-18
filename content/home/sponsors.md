@@ -28,7 +28,7 @@ image_links:
     link: https://www.softbankrobotics.com/
     caption: SoftBank Robotics Corp
   - folder: sponsors
-    image: 06_urg_sponsoring.png
+    image: 06_urg_sponsoring.svg
     link: https://www.unitedrobotics.group/
     caption: United Robotics Group GmbH
   - folder: sponsors
