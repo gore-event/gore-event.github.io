@@ -2,7 +2,7 @@
 widget: pages
 headless: true
 weight: 20
-title: Public Viewing
+title: Public Access
 subtitle: ""
 active: true
 ---
