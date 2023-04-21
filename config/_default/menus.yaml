@@ -7,17 +7,17 @@ main:
   - name: Home
     url: '#home'
     weight: 10
+  - name: Public Access
+    url: '#public'
+    weight: 20
   - name: Timetable
     url: '#timetable'
-    weight: 20
+    weight: 30
   - name: Teams
     url: '#teams'
-    weight: 30
+    weight: 40
   - name: Updates
     url: '#updates'
-    weight: 40
-  - name: Contact
-    url: '#contact'
     weight: 50
   - name: Gallery
     identifier: gallery
