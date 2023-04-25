@@ -102,7 +102,7 @@
 
       function getNextEvents() {
         let upNext = {}, after = {};
-        const now = DateTime.now().minus({ hours: 2 });
+        const now = DateTime.now();
 
         for (const slot of timeSlots) {
           const [hour, minutes] = slot.time.split(':');
