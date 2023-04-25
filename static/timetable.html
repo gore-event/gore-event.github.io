@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;family=Roboto+Mono&amp;family=Roboto:wght@400;700&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;family=Roboto+Mono&amp;family=Roboto:wght@400;700&amp;display=swap" media="all" onload="this.media='all'">
-    <link rel="stylesheet" href="/css/wowchemy.486a0b5179264d340d5ea7dc1514b9fd.css">
+    <link rel="stylesheet" href="/css/wowchemy.css">
   </head>
   <body class="mt-0" style="background-color: rgb(247, 247, 247)">
     <section id="timetable-page">
@@ -16,33 +16,34 @@
           <iframe
               frameborder="0"
               class="timetable-display"
-              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTOJCD4w-Qda0Q9X3z7P5QTXzdv-OZNo_viNBrvnOAtCQgZdf9gwmJvcfnfzVXT85d1naQg4JeMPnRj/pubhtml?gid=966839005&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false">
+              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS53qa2npdSX8EW1PAyNJDyesn6wSk1LtYwjwkcPbzGbSQF7ULB8XxJcGOXE8JzAkajY78gUeOkiaSb/pubhtml?gid=687006276&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false">
           </iframe>
         </div>
 
         <div class="col-8 right-slot">
-          <img class="logo" src="/media/logos/01_gore_logo.svg" loading="lazy">
-
-          <div class="row timeslots-row">
-            <div id="now" class="col-12 grey"></div>
-            <div class="col-5">
-              <div id="up-next" class="row"></div>
+          <div class="row">
+            <div class="col-12">
+              <img class="logo" src="/media/logos/01_gore_logo.svg" loading="lazy">
             </div>
-            <div class="col-5">
-              <div id="after" class="row"></div>
-            </div>
-            <div class="col-2">
-              <img class="logo" src="/public_timetable_qr_code.svg" loading="lazy">
-              <p class="grey">Visit to see the full event timetable!</p>
-            </div>
-          </div>
-          <div class="row sponsors-row">
-            <div class="col-8">
-              <img class="sponsors-logo" src="/sponsors.svg" loading="lazy">
-            </div>
-            <div class="col-4">
-              <img class="robocup-logo" src="/media/logos/03_robocup_logo.png" loading="lazy">
-              <img class="robocup-german-open-logo" src="/media/logos/02_german_open_logo.svg" loading="lazy">
+            <div class="col-12 right-slot">
+              <div class="row timeslots-row">
+                <div id="now" class="col-12 grey"></div>
+                <div class="col-5">
+                  <div id="up-next" class="row"></div>
+                </div>
+                <div class="col-5">
+                  <div id="after" class="row"></div>
+                </div>
+                <div class="col-2">
+                  <img class="logo" src="/public_timetable_qr_code.svg" loading="lazy">
+                  <p class="grey">Visit for the full timetable!</p>
+                </div>
+              </div>
+              <div class="row sponsors-row">
+                <div class="col-12">
+                  <img class="sponsors-logo" src="/sponsors.svg" loading="lazy">
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -135,7 +136,7 @@
       }
 
       function parseTimetable() {
-        return fetch('/timetable.csv')
+        return fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vS53qa2npdSX8EW1PAyNJDyesn6wSk1LtYwjwkcPbzGbSQF7ULB8XxJcGOXE8JzAkajY78gUeOkiaSb/pub?gid=687006276&single=true&output=csv')
           .then(response => response.text())
           .then(csv => Papa.parse(csv, {
             header: true,
