@@ -13,16 +13,19 @@ main:
   - name: Timetable
     url: '#timetable'
     weight: 30
+  - name: Press
+    url: '#press'
+    weight: 40
   - name: Teams
     url: '#teams'
-    weight: 40
+    weight: 50
   - name: Updates
     url: '#updates'
-    weight: 50
+    weight: 60
   - name: Gallery
     identifier: gallery
     url: '/gallery/'
-    weight: 60
+    weight: 70
   - name: Previous Competitions
     identifier: previous
     weight: 90

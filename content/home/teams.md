@@ -1,7 +1,7 @@
 ---
 widget: pages
 headless: true
-weight: 40
+weight: 50
 title: Teams
 subtitle: Planning to participate in GORE
 active: true
