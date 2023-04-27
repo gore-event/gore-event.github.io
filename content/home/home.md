@@ -9,10 +9,16 @@ design:
 image_links:
   - folder: logos
     image: 01_gore_logo.svg
-    caption: German Open Replacement Event 2022
+    caption: German Open Replacement Event 2023
 ---
 
 {{< image_links folder="logos" class="logos" >}}
+
+<h1 class="livestream_link">
+  <a href="https://youtube.com/RoboCupSPL/live" target="_blank" rel="noopener">
+    View the current livestream 
+  </a>
+</h1>
 
 After the successful [GORE 2022](/previous/2022/) and the great reception we are happy to announce that we are going into the third round of the GORE!
 This time the event will take place **in [Hamburg at the CFEL@DESY](https://www.desy.de/research/cooperations__institutes/cfel/index_eng.html) from the 25.04. - 30.04.**
