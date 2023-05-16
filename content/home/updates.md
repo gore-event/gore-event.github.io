@@ -4,7 +4,7 @@ headless: true
 weight: 60
 title: Updates
 subtitle: The latest information
-active: true
+active: false
 ---
 
 Dear GORE 2023 teams,

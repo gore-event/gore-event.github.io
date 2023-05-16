@@ -7,11 +7,11 @@ main:
   - name: Home
     url: '#home'
     weight: 10
-  - name: Public Access
-    url: '#public'
+  - name: Results
+    url: '#results'
     weight: 20
-  - name: Timetable
-    url: '#timetable'
+  - name: Sponsors
+    url: '#sponsors'
     weight: 30
   - name: Press
     url: '#press'
@@ -19,9 +19,6 @@ main:
   - name: Teams
     url: '#teams'
     weight: 50
-  - name: Updates
-    url: '#updates'
-    weight: 60
   - name: Gallery
     identifier: gallery
     url: '/gallery/'

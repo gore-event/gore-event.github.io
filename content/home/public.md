@@ -4,7 +4,7 @@ headless: true
 weight: 20
 title: Public Access
 subtitle: ""
-active: true
+active: false
 ---
 
 The event will be open to the public from **April 27 to April 30** at the **[Center for Free-Electron Laser Science](https://www.cfel.de/contact/index_eng.html)**.

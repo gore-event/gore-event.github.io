@@ -3,22 +3,26 @@ widget: pages
 headless: true
 weight: 20
 title: Results
-subtitle: Ranking of all the SPL Teams
-active: false
+subtitle: Ranking of all SPL Teams
+active: true
 ---
 
-| Ranking | Teams          | Points | BHZ | Goal Difference | Summed Score |
-| :-----: | -------------- | :----: | :-: | :-------------: | :----------: |
-|    1    | B-Human        |   17   | 68  |       58        |     58:0     |
-|    2    | HTWK Robots    |   13   | 69  |       29        |    40:11     |
-|    3    | RoboEireann    |   10   | 68  |        4        |    27:23     |
-|    4    | Bembelbots     |   9    | 65  |       -11       |    14:25     |
-|    5    | rUNSWift       |   8    | 43  |        4        |     12:8     |
-|    6    | Nao Devils     |   6    | 54  |       -1        |    15:16     |
-|    7    | SPQR           |   5    | 38  |       -4        |     6:10     |
-|    8    | R-ZWEI-KICKERS |   2    | 58  |       -42       |     4:46     |
-|    9    | HULKs          |   0    | 57  |       -40       |     1:41     |
+{{< table "table table-sm table-striped table-bordered" >}}
 
-For a more in depth view of the different games played and their individual results you can have a look at the whole [timetable](https://docs.google.com/spreadsheets/d/e/2PACX-1vTOJCD4w-Qda0Q9X3z7P5QTXzdv-OZNo_viNBrvnOAtCQgZdf9gwmJvcfnfzVXT85d1naQg4JeMPnRj/pubhtml?gid=1761701310&single=true).
+| Ranking |      Team      | Points | BHN | Goal Difference | Summed Score |
+|:-------:|:--------------:|:------:|:---:|:---------------:|:------------:|
+|    1    |     B-Human    |  (17)  |  65 |        67       |     67:0     |
+|    2    |   HTWK Robots  |  (13)  |  67 |        18       |     34:16    |
+|    3    |   Nao Devils   |  (13)  |  55 |        11       |     30:19    |
+|    4    | R-ZWEI KICKERS |   (7)  |  73 |        0        |     22:22    |
+|    5    |      HULKs     |    9   |  35 |        3        |     18:15    |
+|    6    | Dutch Nao Team |    5   |  60 |       -21       |     6:27     |
+|    7    |   Bembelbots   |    3   |  68 |       -26       |     3:29     |
+|    8    |      Naova     |    2   |  63 |       -34       |     2:36     |
+|    9    |     NomadZ     |    1   |  39 |       -18       |     5:23     |
 
-The [Humanoid League Virtual Season 2021/22](https://humanoid.robocup.org/hl-vs2022/humanoid-league-virtual-season-2021-22/) results are available on a dedicated page.
+{{</ table >}}
+
+For a more in depth view of the different games played and their individual results you can have a look at the whole [timetable](https://docs.google.com/spreadsheets/d/e/2PACX-1vS53qa2npdSX8EW1PAyNJDyesn6wSk1LtYwjwkcPbzGbSQF7ULB8XxJcGOXE8JzAkajY78gUeOkiaSb/pubhtml?gid=909844614&single=true).
+
+The [Humanoid League Virtual Season 22/23](https://humanoid.robocup.org/hlvs2023/schedule-for-the-humanoid-league-virtual-season-2022-23/) results are available on a dedicated page.

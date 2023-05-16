@@ -3,7 +3,7 @@ widget: pages
 headless: true
 weight: 30
 title: Timetable
-active: true
+active: false
 design:
   columns: 1
 ---

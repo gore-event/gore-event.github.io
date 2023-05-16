@@ -3,11 +3,9 @@ widget: pages
 headless: true
 weight: 50
 title: Teams
-subtitle: Planning to participate in GORE
-active: true
+subtitle: Participating teams in GORE
+active: false
 ---
-
-The following teams have confirmed their participation:
 
 {{< table "table table-sm table-striped table-bordered" >}}
 
